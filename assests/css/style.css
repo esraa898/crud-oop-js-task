@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-image: url("/assests/img/Zoom\ Sparkle\ Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  width: 90%;
+  margin-bottom: 100px;
+}
+.main .container {
+  width: 90%;
+  margin-inline-start: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.container h1 {
+  font-size: 62px;
+  line-height: 2.3;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1c5f83;
+}
+.row {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  width: 41%;
+  padding: 20px 0;
+  margin-bottom: 41px;
+  outline: none;
+}
+#add {
+  border: 1px solid #1c5f83;
+  background-color: #1c5f83;
+  color: white;
+  width: 97px;
+  height: 53px;
+  font-size: 20px;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+
+.table {
+  width: 90%;
+  margin-inline-start: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.table-data {
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  border-spacing: 0.5rem;
+}
+td,
+th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.del {
+  background-color: #66bd63;
+  color: white;
+  width: 78px;
+  height: 43px;
+  font-size: 14px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  outline: none;
+  border: 1px solid #66bd63;
+  margin: 5px 17px;
+}
+.edit {
+  background-color: red;
+  color: white;
+  width: 78px;
+  height: 43px;
+  font-size: 14px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  outline: none;
+  border: 1px solid red;
+  margin: 5px 17px;
+}
+span {
+  margin-top: 50px;
+}
